@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de satisfaccion de los asistentes</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1> Encuesta de satisfacción de asistentes a un evento</h1> 
+    <h2>Responder la Encuesta</h2>
+    <p>Por favor, responde la Encuesta de manera honesta.</p> 
+    
+    <form method="get" autocomplete="off">
+<table>
+    <tr>
+        <td><label>Nombre Completo:</label></td>
+        <td><input type="text" name="nombre" required></td>
+    </tr>
+    <tr>
+        <td><label>Edad:</label></td>
+        <td><input type="number" name="edad" required></td>
+    </tr>
+    <tr>
+        <td><label>Genero :</label></td>
+        <td><select name="Genero" required>
+            <option value="value">Seleciona una opcion</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+        </select ></td>
+    </tr>
+    <tr>
+        <td><label>Correo Electrónico:</label></td>
+        <td><input type="email" name="correo" required></td>
+    </tr>
+    <tr>
+        <td><label>Número de teléfono:</label></td>
+        <td><input type="text" name="Numero de telefono" required></td>
+    </tr>
+
+    <tr>
+        <td><label>¿Le gustó el evento? </label></td>
+    </tr>
+    <tr>
+        <td><input type="radio" name="S" value="Si" required>
+            <label for="Si">Si</label></td>
+        <td><input type="radio" name="N" value="No" required>
+            <label for="No">No</label></td>
+    </tr>
+    <tr>
+        <td><label>¿Volvería a asistir a otro evento? </label></td>
+    </tr>
+    <tr>
+        <td><input type="radio" name="S" value="Si" required>
+            <label for="Si">Si</label></td>
+        <td><input type="radio" name="N" value="No" required>
+            <label for="No">No</label></td>
+    </tr>
+</table>
+
+    <label>Evaluación de evento :</label>
+    <select name="ocupacion" required>
+        <option value="value">Seleciona una opcion</option>
+        <option value="Excelente">Excelente</option>
+        <option value="Bueno">Bueno</option>
+        <option value="Regular">Regular</option>
+        <option value="Malo">Malo</option>
+    </select >
+
+    <label>Comentarios: </label>
+    <textarea name="Comentarios" id="comentario" cols="30" rows="10"></textarea>
+
+    <button type="submit">Subir</button>
+    
+    </form>
+    
+</body>
+</html>
