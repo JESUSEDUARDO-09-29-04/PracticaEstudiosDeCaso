@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulario de inscripcion a la conferencia</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1> Formulario de registro para asistir a una conferencia  </h1>  
+    <h2>Responder el siguiente formulario</h2>
+    <p>Por favor, responda el formulario de manera honesta.</p>
+    <form method="get" autocomplete="off">
+<table>
+    <tr>
+        <td><label>Nombre Completo:</label></td>
+        <td><input type="text" name="nombre" required></td>
+    </tr>
+    <tr>
+        <td><label>Correo Electrónico:</label></td>
+        <td><input type="email" name="correo" required></td>
+    </tr>
+    <tr>
+        <td><label>Número de telefóno:</label></td>
+        <td><input type="text" name="Numero de telefono" required></td>
+    </tr>
+    <tr>
+        <td><label>Fecha de Nacimiento:</label></td>
+        <td><input type="date" name="Fecha de Nacimiento" required></td>
+    </tr>
+    <tr>
+        <td><label>Dirección:</label></label></td>
+        <td><input type="text" name="Direccion" required></td>
+    </tr>
+</table>
+
+    <label>Ocupacion :</label>
+    <select name="ocupacion" required>
+        <option value="value">Seleciona una opción</option>
+        <option value="Abogado">Abogado</option>
+        <option value="Doctor">Doctor</option>
+        <option value="Maestro">Maestro</option>
+        <option value="otro">otro</option>
+    </select >
+
+    <label>Talla de Camiseta: </label>
+    <input type="radio" name="Talla" value="S" required>
+    <label for="S">S</label>
+    <input type="radio" name="Talla" value="M" required>
+    <label for="M">M</label>
+    <input type="radio" name="Talla" value="L" required>
+    <label for="L">L</label>
+    <input type="radio" name="Talla" value="XL" required>
+    <label for="XL">XL</label>
+
+    <label>Preferencias dietéticas: </label>
+    <input type="radio" name="dieta" value="Vegetariano" required>
+    <label for="Vegetariano">Vegetariano</label>
+    <input type="radio" name="dieta" value="Vegano" required>
+    <label for="Vegano">Vegano</label>
+    <input type="radio" name="dieta" value="Sin gluten" required>
+    <label for="Sin gluten">Sin gluten</label>
+    <input type="radio" name="dieta" value="Sin restricciones" required>
+    <label for="Sin restricciones">Sin restricciones</label>
+        
+    <label>Bebida preferida :</label>
+    <select name="Bebida" required>
+        <option value="value">Seleciona una opción</option>
+        <option value="Agua mineral">Agua mineral</option>
+        <option value="Vino">Vino</option>
+        <option value="Cerveza">Cerveza</option>
+        <option value="Agua simple">Agua simple</option>
+    </select >
+
+    <button type="submit">Subir</button>
+    </form>
+    
+</body>
+</html>

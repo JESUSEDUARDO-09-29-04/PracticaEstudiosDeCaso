@@ -1,0 +1,64 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 10px;
+    background-color:rgb(103, 165, 240);
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    background-color:rgb(170, 245, 96);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+
+h1,h2,p{
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(103, 165, 240);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+textarea{
+    resize:vertical;
+}
+
+button{
+    background-color:black ;
+    color:rgb(170, 245, 96);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+}
+.error{
+    color:rgb(170, 245, 96);
+    margin-bottom: 10px;
+}
+
+.success{
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
